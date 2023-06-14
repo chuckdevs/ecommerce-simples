@@ -1,0 +1,133 @@
+@media screen and (max-width: 1007px) {
+  .hero-image {
+    width: 50%;
+  }
+  .list-brands {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 990px) {
+  .container {
+    max-width: auto;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 798px) {
+  .footer-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-bottom: 142px;
+    justify-items: center;
+  }
+  .informationals {
+    align-items: center;
+  }
+  .slogan {
+    width: 60%;
+  }
+  .colections {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .text-colections {
+    align-items: center;
+  }
+  html {
+    font-size: 55.2%;
+  }
+  .text-colections {
+    width: 80%;
+    text-align: center;
+  }
+  .nav-2 {
+    margin: 0;
+  }
+  .hamburguer {
+    width: 50px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 3px;
+  }
+  .icon-buguer {
+    width: 50px;
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: start;
+    gap: 100px;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: -200%;
+    background-color: var(--blue);
+    height: 100vh;
+    width: 50vw;
+    transition: 0.5s ease;
+  }
+  .menu .item-menu .link-menu {
+    color: var(--white);
+    font-size: 1.8rem;
+  }
+  .menu.active {
+    left: 0;
+  }
+  .mosaic {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "modelo-1  "
+      "modelo-2"
+      "modelo-3"
+      "modelo-4"
+      "modelo-5";
+    gap: 15px;
+  }
+  .choose {
+    flex-wrap: wrap;
+  }
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 640px) {
+  .payments {
+    width: 40%;
+  }
+  .footer-p {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 80px;
+    justify-items: center;
+  }
+  .products {
+    grid-template-columns: 1fr;
+  }
+  .btn-header span {
+    display: none;
+  }
+  .btn-scroll {
+    display: none;
+  }
+  .title-1 {
+    font-size: 6.4rem;
+    font-weight: 300;
+  }
+  .list-brands {
+    justify-content: center;
+  }
+  .informationals {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: auto;
+    min-height: 207px;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+  }
+}

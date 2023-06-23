@@ -8,6 +8,7 @@ Torna-lo responsivo foi o maior desafio, porem foi muito gratificante finaliza-l
 
 ### Versão Desktop:
 
-
+![Desktop Version](https://github.com/chuckdevs/ecommerce-simples/blob/a809d669de021eb9cb38ef8009aabd7fc422ebee/projeto-ecomerce/src/Laptop-1-1440x900.png)
 
 ### Versão mobile:
+![Mobile Version](https://github.com/chuckdevs/ecommerce-simples/blob/a809d669de021eb9cb38ef8009aabd7fc422ebee/projeto-ecomerce/src/iPhone-XR-XS-Max-414x896.png)
